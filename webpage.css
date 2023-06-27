@@ -1,0 +1,182 @@
+body{
+    /* background-image: url(./src/bbild.jpg); */
+    background-image: url(./src/c2.jpeg);
+    background-size:cover;
+    background-position: top;
+    background-repeat:no-repeat;
+    /* background-color: #c5c3bc; */
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+.navWrapper{ background-color: rgb(3, 32, 85);
+    padding: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav{
+   
+    
+    /* border-radius: 15px; */
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 13, 4);
+    padding: 15px;
+}
+a:hover{
+    color:white;
+    background-color: black;
+    border-radius: 5px 20px;
+} 
+.under-nav{
+    display: inline-block;
+    position: relative;
+    /* float: left; */
+    margin-right: 100px;
+    /* background-color: white; */
+    border-radius: 15px;
+}
+.searchInput{
+   
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+}
+.fa-search{
+    position: absolute;
+    right: 10px;
+
+}
+
+.divOfTable{
+    /* background-image: url(./src/cat4.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tableClass{
+    margin: auto;
+}
+th{
+    border-radius: 20px;
+    background-color: rgb(11, 105, 182);
+    padding: 20px;
+    text-align: center;
+}
+td{
+    padding: 20px;
+    border-radius: 20px;
+}
+tr:nth-child(even){
+    background-color: rgb(199, 237, 129);
+}
+tr:nth-child(odd){
+    background-color: rgb(112, 228, 193);
+}
+.divPara{
+    padding-top: 50px;
+    margin: 5px 20px;
+}
+.para{
+    /* background-color: yellowgreen; */
+    padding: 20px;
+    padding-bottom: 20px;
+    text-indent: 300px;
+    text-align: justify;
+    border-radius: 20px;
+    border: 1px solid rgb(57, 64, 99);
+    color: rgb(238, 237, 237);
+}
+.img{
+    float: right;
+    /* padding : 5px; */
+    height: 200px;
+    width: 300px;
+}
+.divOfMarquee{
+   border: 2px solid white;
+        margin: 5px 20px;
+}
+
+
+
+img{
+    height: 190px;
+    width: 150px;
+    margin: 5px;
+}
+figure{
+     display: inline-block;         /* ye khud line me ayengi */
+    text-align: center;
+     
+    
+}
+img{
+    object-fit: cover;
+}
+.figcaption{
+    color: white;
+}
+i{
+    padding: 5px;
+}
+footer{
+    background-color: black;
+    /* padding: 10px; */
+    padding: 5px 20px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goUpButton{
+    position: absolute;
+    right: 20px;
+       border-radius: 331px;
+    padding: 10px;
+    border: none;
+    transition: all .6s ease;
+    scroll-behavior: smooth;
+}
+.goupAchor{
+    text-decoration: none;
+    color: black;
+}
+
+/* this is Home section */
+
+.homediv1{
+    margin: 20px 0px;
+}
+.homediv2{
+    /* height: 500px; */
+    width: 100%;
+
+    /* background-color: rgb(164 213 154); */
+    /* padding: 4px; */
+    
+}
+
+.paraImg1{
+    /* direction: rtl; */
+    /* background-image: url(./src/pexels-marek-kupiec-3974516.jpg); */
+    
+    padding: 20px;
+    /* background-repeat: no-repeat; */
+    /* background-position: left; */
+    /* background-attachment: fixed; */
+    text-align: justify;
+    /* background-size: cover; */
+    border: 1px solid wheat;
+    border-radius: 10px 30px;
+    color:rgb(228, 201, 144);
+    margin: 5px 30px;
+}
+.homeImg1{
+    float:right;
+    margin: 10px;
+}
